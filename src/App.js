@@ -8,7 +8,7 @@ function App() {
   const name = useSelector((state) => state.customer.fullName)
   return (
     <div>
-      <h1>🏦 The React-Redux Bank ⚛️</h1>
+      <h1>🏦 Small bank account and customer operations (with Redux) ⚛️</h1>
       {name === '' ?
         (<CreateCustomer />)
         :
